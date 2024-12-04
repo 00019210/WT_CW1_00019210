@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../mainPage/css/main.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="./css/location.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top__inner">
+                    <div class="header__top__left">
+                        <img class="logo" src="../assets/catLogo.png" alt="">
+                        <ul class="header__top__list">
+                            <li class="header__top__item"><a class="header__top__link" href="../service/service.html">Service Center</a></li>
+                            <li class="header__top__item"><a class="header__top__link" href="">Bulletin Board</a></li>
+                            <li class="header__top__item"><a class="header__top__link" href="/index.html">Online Store Dily.ru</a>
+                            </li>
+                            <li class="header__top__item"><a class="header__top__link" href="">Buying</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__top__right">
+                        <img class="icon" src="../assets/person.svg" alt="">
+                        <a class="header__middle__link">Login / Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Section -->
+        <div class="header__middle">
+            <div class="container">
+                <div class="header__middle__inner">
+                    <div class="header__middle__inner__left">
+                        <ul class="header__middle__list">
+                            <li class="header__middle__item">
+                                <img class="icon" src="../assets/menu.svg" alt="">
+                                <a class="header__middle__link" href="">Product Catalog</a>
+                            </li>
+                            <li class="header__middle__item">
+                                <img class="icon" src="../assets/delivery.svg" alt="">
+                                <a class="header__middle__link" href="">Delivery and Payment</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__middle__inner__right">
+                        <div class="search__bar">
+                            <div class="search__input">
+                                <img class="icon search__icon" src="../assets/search.svg" alt="">
+                                <input type="text" placeholder="I want to buy">
+                            </div>
+                            <button class="search__button" type="submit">Search</button>
+                        </div>
+                        <a class="header__middle__link" href="">Support</a>
+                        <a href="./likes.html">
+                            <img class="icon" src="../assets/heart.svg" alt="">
+                        </a>
+                        <img class="icon" src="../assets/category.svg" alt="">
+                        <img class="icon" src="../assets/cart.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="header__bottom">
+            <div class="header__bottom-content">
+                <div class="container">
+                    <div class="header__bottom-inner">
+                        <h1 class="header__bottom-title">iPad repair addresses</h1>
+                        <p>Our service centers are located within walking distance next to the metro</p>
+                        <button class="default-btn header-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="location">
+            <div class="container">
+                <div class="location-inner">
+                    <h1>We Are Easy to Find</h1>
+                    <div class="filter">
+                        <div class="dropdowns">
+                            <div class="dropdown">
+                                <label for="city">City</label>
+                                <select id="city">
+                                    <option value="moscow">Moscow</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="dropdown">
+                                <label for="metro">Metro</label>
+                                <select id="metro">
+                                    <option value="">Select...</option>
+                                    <option value="voikovskaya">Voikovskaya</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="filter-details">
+                            <ul>
+                                <li><a href="">
+                                    <img class="icon" src="../assets/category.svg" alt=""> List
+                                </a></li>
+                                <li><a href="">
+                                    <img class="icon" src="../assets/location.svg" alt=""> Map
+                                </a></li>
+                                <li><a href="">
+                                    <img class="icon" src="../assets/location.svg" alt=""> Subway
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="locations">
+                        <ul class="location-list">
+                            <li>
+                                <strong>Moscow, Leningradskoye Shosse 8k3</strong>
+                                <p>Mon-Fri: 10:00 - 21:00<br>Sat: 10:00 - 21:00</p>
+                                <p><a href="tel:+79684308820">+7 (968) 430-88-20</a></p>
+                                <p>Metro: Voikovskaya</p>
+                            </li>
+                            <li>
+                                <strong>Moscow, Leningradskoye Shosse 8k3</strong>
+                                <p>Mon-Fri: 10:00 - 21:00<br>Sat: 10:00 - 21:00</p>
+                                <p><a href="tel:+79684308820">+7 (968) 430-88-20</a></p>
+                                <p>Metro: Voikovskaya</p>
+                            </li>
+                            <li>
+                                <strong>Moscow, Leningradskoye Shosse 8k3</strong>
+                                <p>Mon-Fri: 10:00 - 21:00<br>Sat: 10:00 - 21:00</p>
+                                <p><a href="tel:+79684308820">+7 (968) 430-88-20</a></p>
+                                <p>Metro: Voikovskaya</p>
+                            </li>
+                            <!-- Add more locations as needed -->
+                        </ul>
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.744679675328!2d37.51821901583295!3d55.8186413805664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b536e7b8e4e48b%3A0xb16f6d96cf04e27e!2sLeningradskoye%20Shosse%2C%208k3%2C%20Moscow%2C%20Russia!5e0!3m2!1sen!2sus!4v1608470014302!5m2!1sen!2sus"
+                                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-top-inner">
+                    <div class="footer-top-left">
+                        <img class="logo" src="../assets/catLogo.png" alt="">
+                        <span>Uzbekistan</span>
+                    </div>
+                    <div class="footer-top-right">
+                        <p>Join us</p>
+                        <img src="../assets/facebook.svg" alt="">
+                        <img src="../assets/insta.svg" alt="">
+                        <img src="../assets/vk.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer-inner">
+
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="footer-middle-boxes">
+                        <div class="footer-middle-box">
+                            <h6>Bulletin board</h6>
+                            <ul>
+                                <li>Announcements</li>
+                                <li>Shops</li>
+                                <li>Charity</li>
+                                <li>Personal account</li>
+                            </ul>
+                        </div>
+                        <div class="footer-middle-box">
+                            <h6>Service center</h6>
+                            <ul>
+                                <li>What we fix</li>
+                                <li>Addresses of service centers</li>
+                            </ul>
+                        </div>
+                        <div class="footer-middle-box">
+                            <h6>Online store</h6>
+                            <ul>
+                                <li>Product Catalog</li>
+                                <li>Delivery and payment</li>
+                                <li>Basket</li>
+                                <li>Personal account</li>
+                                <li>Contacts</li>
+                                <li>Vacancies</li>
+                            </ul>
+                        </div>
+                        <div class="footer-middle-box">
+                            <h6>For users</h6>
+                            <ul>
+                                <li>Guarantees</li>
+                                <li>Delivery and payment</li>
+                                <li>Helpdesk</li>
+                                <li>Question and Answer</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-bottom"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

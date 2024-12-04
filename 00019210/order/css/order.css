@@ -1,0 +1,82 @@
+@import "../../font.css";
+  
+  .order-checkout {
+    margin: 50px 0;
+  }
+
+  .order-checkout-inner {
+    width: 1170px;
+    border-radius: 7.369px;
+background: #FFF;
+box-shadow: 1px 2px 16px 3px rgba(54, 58, 69, 0.08);
+padding: 50px;
+  }
+
+  h2, h3 {
+    margin-bottom: 15px;
+  }
+  
+  .order-summary, .delivery-options, .payment-methods, .recipient-details {
+    margin-bottom: 30px;
+  }
+  
+  .order-details p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-order {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

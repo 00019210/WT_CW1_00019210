@@ -1,0 +1,91 @@
+@import "./font.css";
+
+:root {
+    --RR: "Roboto-Regular", sans-serif;
+    --RM: "Roboto-Medium", sans-serif;
+    --MR: "Montserrat-Regular", sans-serif;
+    --MB: "Montserrat-Bold", sans-serif;
+    --CR: "Comfortaa-Regular", sans-serif;
+    --CB: "Comfortaa-Bold", sans-serif;
+    --white: #ffffff;
+    --darkPurple: #4c2e8c;
+    --mediumPurple: hsl(270, 60%, 41%);
+    --lightPurple: #a48abf;
+    --black: ##0d0409;
+    --mediunGrey: #dadcdc;
+    --lightBlue: #6e58a3;
+    --darkBlue: #011640;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.services-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.services-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-box img{
+    width: 50px;
+height: 50px;
+border-radius: 50%;
+flex-shrink: 0;
+}
+
+.models {
+    margin: 80px 0;
+}
+
+.models-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.models-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.models-box  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.malfunctions {
+    margin-bottom: 80px;
+}
+
+.malfunctions-inner {
+    padding: 30px;
+    width: 1170px;
+height: 430px;
+border-radius: 10px;
+background: #FFF;
+
+/* shadow 1 */
+box-shadow: 1px 2px 16px 3px rgba(54, 58, 69, 0.08);
+}
+
+.malf-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.malf-boxes ul li {
+    color: black;
+    margin-bottom: 10px;
+}
